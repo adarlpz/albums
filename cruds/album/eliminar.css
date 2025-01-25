@@ -1,0 +1,96 @@
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Toolbar */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    width: 100%; /* Aseguramos que la toolbar ocupe todo el ancho */
+}
+
+/* Botones de eliminar y editar */
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start; /* Alineamos los botones a la izquierda */
+}
+
+/* Contenedor de la imagen y detalles del álbum */
+.head {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección a columna para que la imagen y los textos estén en una columna */
+    align-items: center; /* Centrar los elementos dentro de la columna */
+    gap: 20px; /* Espacio entre la imagen y los textos */
+    margin-top: 20px;
+    width: 100%; /* Aseguramos que ocupe todo el ancho posible */
+}
+
+/* Contenedor de la imagen y los detalles de la canción */
+.idk {
+    display: flex;
+    flex-direction: column; /* Colocar los elementos en una columna */
+    gap: 10px;
+    width: 100%; /* Aseguramos que ocupe todo el ancho disponible */
+}
+
+/* Estilos para las listas de pistas */
+.listview {
+    display: flex;
+    gap: 10px;
+    width: 100%; /* Aseguramos que ocupe todo el ancho disponible */
+    margin-bottom: 20px;
+}
+
+/* Elementos dentro de las pistas */
+.idk2 {
+    display: flex;
+    justify-content: space-between; /* Mantener las pistas distribuidas correctamente */
+    gap: 10px;
+    width: 100%; /* Aseguramos que ocupe todo el ancho disponible */
+}
+
+/* Estilos de texto */
+.subtitle {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;    
+}
+
+.title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Imágenes */
+.portadas {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}

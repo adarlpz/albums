@@ -1,0 +1,55 @@
+.toolbar {
+    display: flex; /* Activa el modelo Flexbox */
+    justify-content: space-between; /* Distribuye los elementos a los extremos */
+    align-items: center; /* Alinea los elementos verticalmente (si hay diferencia de altura) */
+    padding: 0 100px; /* Espaciado interno opcional */
+}
+
+.botones    {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.head   {
+display: flex;
+padding: 25px;
+}
+
+.idk    {
+    display: flex;
+    gap: 10px;
+}
+
+.listview   {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.idk2   {
+    display: flex;
+    gap: 20px;
+}
+
+.subtitle {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;    
+}
+
+.title  {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background-color: black;
+}

@@ -1,0 +1,42 @@
+.inicio {
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Opcional, centra texto dentro del div */
+}
+
+.listview   {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.toolbar    {
+    display: flex; /* Activa el modelo Flexbox */
+    justify-content: space-between; /* Distribuye los elementos a los extremos */
+    align-items: center; /* Alinea los elementos verticalmente (si hay diferencia de altura) */
+    padding: 0 20px; /* Espaciado interno opcional */
+}
+
+.title  {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.idk2   {
+    display: flex;
+    gap: 20px;
+}
+
+.row    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre los elementos */
+}

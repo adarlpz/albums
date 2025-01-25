@@ -1,0 +1,23 @@
+.inicio {
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Opcional, centra texto dentro del div */
+}
+
+.toolbar    {
+    display: flex; /* Activa el modelo Flexbox */
+    justify-content: space-between; /* Distribuye los elementos a los extremos */
+    align-items: center; /* Alinea los elementos verticalmente (si hay diferencia de altura) */
+    padding: 0 20px; /* Espaciado interno opcional */
+}
+
+.title  {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
